@@ -1,21 +1,79 @@
-<html>
-<head>
-Test connecting sub-domain CNAME to Github successful
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Tushar Gupta
+</title>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="ROBOTS" content="INDEX, FOLLOW" />
+<meta name="description" content="Hi, My name is Tushar Gupta. I am a grad student at USC pursuing MS in Computer Science." />
+<meta name="keywords" content="Tushar Gupta, Gupta Tushar,USC Computer Science Student, Developer, Software Engineer, Los Angeles, tushki1405" />
+<meta name="Author" content="Tushar Gupta, Gupta Tushar, tushki1405" />
+
+<link href="content/css/bootstrap-theme.css" rel="stylesheet" />
+<link href="content/css/bootstrap-theme.min.css" rel="stylesheet" />
+<link href="content/css/bootstrap.css" rel="stylesheet" />
+<link href="content/css/bootstrap.min.css" rel="stylesheet" />
+<link href="content/css/dem.css" rel="stylesheet" />
+<link href="content/css/Site.css" rel="stylesheet" />
+<link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css" />
+
+<script src="content/Scripts/jquery-2.1.1.min.js"></script>
+<script src="content/Scripts/npm.js"></script>
+<script src="content/Scripts/bootstrap.js"></script>
+<script src="content/Scripts/bootstrap.min.js"></script>
+<script src="content/Scripts/HomePage.js"></script>
 </head>
 <body>
-  
-  
-<!--  
-<table style="border:0px;width:500px">
-  <tr>
-    <th style="text-align:center;font-size:5em;">Cutie Pie!</th>
-  </tr>
-  <tr>
-    <th><img src="http://images.clipartpanda.com/heart-clip-art-valentine_heart_29-1969px.png" style="width:500px; height:500px" /></th>
-  </tr>
-</table>  
-  -->
-  
+    
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse cssnav" style="min-height:22px;" role="navigation">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                
+                <li><a href="content/files/TusharGupta_Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="#" onclick="showContactPanel();return false;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="homePageFirst">
+        <div class="row" style="padding-top:100px;">
+            <div class="col-md-offset-1 col-md-11">
+                <span class="intro1">
+                    Hi<b>...</b>&nbsp;My name is <b style="color: #003366">Tushar Gupta.</b>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-1 col-md-11">
+                <span class="intro2">
+                    I am a grad student at <b style="color: #8A0808">University of Southern California.</b>
+                </span>
+            </div>
+        </div>
+    </div>
+   
 
+    <div class="contactPanel">
+        <table class="table" style="border-left:0px;">
+            <tr><td><a href="https://www.facebook.com/tushki1405" target="_blank"><img src="content/Images/Icons/facebook.png" />Facebook</a></td></tr>
+            <tr><td><a href="https://www.linkedin.com/in/tushargupta14" target="_blank"><img src="content/Images/Icons/linkedin.png" />LinkedIn</a></td></tr>
+            <tr><td><a href="https://twitter.com/tushargupta1405" target="_blank"><img src="content/Images/Icons/tweet.png" />Twitter</a></td></tr>
+            <tr><td><a href="http://instagram.com/tushki1405/" target="_blank"><img src="content/Images/Icons/instagram.png" />Instagram</a></td></tr>
+            <tr><td><a href="https://github.com/tushki1405" target="_blank"><img src="content/Images/Icons/github.png" class="githubIcon" />GitHub</a></td></tr>
+            <tr><td><a href="skype:tushki1405?chat"><img src="content/Images/Icons/skype.png" />Skype</a></td></tr>
+            <tr><td><a href="https://plus.google.com/+TusharGupta1405/" target="_blank"><img src="content/Images/Icons/google-plus-2.png" />Google+</a></td></tr>
+            <tr><td><a href="mailto:tushargupta14@hotmail.com" target="_blank"><img src="content/Images/Icons/windows.png" />Email</a></td></tr>
+        </table>
+    </div>
+ 
+    <script type="text/javascript">
+        $.ready(function () {
+
+        });
+        $(".homePageFirst").click(function () { showContactPanel("clickedondiv"); });
+    </script>
 </body>
-<html>
+</html>

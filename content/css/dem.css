@@ -1,0 +1,444 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #ff0000;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*Tushar Start Here*/
+div {
+    display: block;
+}
+
+ul {
+    display: block;
+}
+
+li {
+    display: list-item;
+}
+
+header {
+    background-color: #303030;
+    width: 100%;
+    height: 140px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+#headerwidth {
+    width: 920px;
+    /* border:2px solid white;  */
+}
+
+#image {
+    margin-top: 40px;
+    margin-left: 20px;
+    float: left;
+    -ms-transition: -ms-transform 1s;
+    -o-transition: -o-transform 1s;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+}
+
+    #image:hover {
+        -ms-transform: scale(1.4);
+        -o-transform: scale(1.4);
+        -webkit-transform: scale(1.4);
+        -moz-transform: scale(1.4);
+    }
+
+#name {
+    margin-top: 40px;
+    margin-left: 30px;
+    float: left;
+    font-family: 'Cantora One', sans-serif;
+    font-size: 50px;
+    color: #D9D9D9;
+    width: 800px;
+}
+
+.headerDivider {
+    height: 10px;
+    background: url(/Content/Images/Images_dem/divider.png);
+    background-repeat: repeat-x;
+}
+
+#header2 {
+    background: url(/Content/Images/Images_dem/background-red.png);
+    height: 120px;
+    padding: 5px 0px 0px 0px;
+}
+
+#headerList {
+    list-style: none;
+    margin-left: 35px;
+}
+
+#listWidth {
+    width: 1200px;
+    /* border:2px solid white; */
+}
+
+#headerList li {
+    float: left;
+    padding-left: 100px;
+}
+
+#downloadIcon {
+    width: 100px;
+    height: 100px;
+}
+
+    #downloadIcon a {
+        width: 100px;
+        height: 100px;
+        text-indent: -99999px;
+        background: url(/Content/Images/Images_dem/download.png);
+        float: left;
+    }
+
+        #downloadIcon a:hover {
+            background: url(/Content/Images/Images_dem/download2.png);
+        }
+
+#helpIcon {
+    width: 100px;
+    height: 100px;
+}
+
+    #helpIcon a {
+        width: 100px;
+        height: 100px;
+        text-indent: -99999px;
+        background: url(/Content/Images/Images_dem/help.png);
+        float: left;
+    }
+
+        #helpIcon a:hover {
+            background: url(/Content/Images/Images_dem/help2.png);
+        }
+
+#contactIcon {
+    width: 100px;
+    height: 100px;
+}
+
+    #contactIcon a {
+        width: 100px;
+        height: 100px;
+        text-indent: -99999px;
+        background: url(/Content/Images/Images_dem/contactMe.png);
+        float: left;
+    }
+
+        #contactIcon a:hover {
+            background: url(/Content/Images/Images_dem/contactMe2.png);
+        }
+
+#featuresIcon {
+    width: 100px;
+    height: 100px;
+}
+
+    #featuresIcon a {
+        width: 100px;
+        height: 100px;
+        text-indent: -99999px;
+        background: url(/Content/Images/Images_dem/features.png);
+        float: left;
+    }
+
+        #featuresIcon a:hover {
+            background: url(/Content/Images/Images_dem/features2.png);
+        }
+
+#aboutIcon {
+    width: 100px;
+    height: 100px;
+}
+
+    #aboutIcon a {
+        width: 100px;
+        height: 100px;
+        text-indent: -99999px;
+        background: url(/Content/Images/Images_dem/about.png);
+        float: left;
+    }
+
+        #aboutIcon a:hover {
+            background: url(/Content/Images/Images_dem/about2.png);
+        }
+
+/* Main content starts here */
+#content {
+    /*height:600px;
+    background:url(/Content/Images/Images_dem/background-blue.png);
+    margin:0px;*/
+    padding: 0px 0px 0px 0px;
+    color: #DDDDDD;
+}
+
+#contactUs {
+    height: 400px;
+    background: url(/Content/Images/Images_dem/background-black.png);
+    padding-top: 5px 0px 0px 0px;
+    text-align: center;
+    color: #DCDCDC;
+}
+
+.contentHeading {
+    width: 500px;
+    height: 75px;
+    border: 0px solid white;
+    padding-top: 20px;
+}
+
+    .contentHeading a {
+        font-family: 'Cantora One', sans-serif;
+        font-size: 60px;
+    }
+
+.sectionLogo {
+    float: left;
+    height: 70px;
+    overflow: hidden;
+    width: 100px;
+}
+
+    .sectionLogo img {
+        width: 100%;
+    }
+
+.sectionName {
+    float: left;
+}
+
+.contentData {
+    /*width:1200px;*/
+    margin: 20px 50px 0px 30px;
+    font-family: 'Cantora One', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#mainContent1 {
+    height: 420px;
+    background: url(/Content/Images/Images_dem/background-blue.png);
+    margin: 0px;
+    color: #D0EEEE;
+}
+
+#mainContent2 {
+    height: 600px;
+    background: url(/Content/Images/Images_dem/background-green.png);
+    margin: 0px;
+    color: #CBFDCB;
+}
+
+#mainContent3 {
+    height: 380px;
+    background: url(/Content/Images/Images_dem/background-brown.png);
+    margin: 0px;
+    color: #FFDAA9;
+}
+
+#mainContent4 {
+    height: 250px;
+    background: url(/Content/Images/Images_dem/background-orange.png);
+    margin: 0px;
+    color: #FFE696;
+}
+
+#mainContent3 .contentData a, #mainContent3 .contentData a:visited {
+    color: #FFDAA9;
+}
+
+    #mainContent3 .contentData a:hover {
+        color: #FFD700;
+    }
+/*For Slider*/
+#rotatorBox {
+    background-color: #007236;
+    border: solid 1px #CBFDCB;
+    height: 430px;
+    width: 1180px;
+}
+
+#item1tab, #item2tab, #item3tab, #item4tab, #item5tab, #item6tab {
+    height: 428px;
+    width: 25px;
+    border: solid 1px #CBFDCB;
+    float: left;
+    background-color: #CBFDCB;
+    text-align: center;
+    color: #007236;
+    font-size: 18px;
+}
+
+#item1data, #item2data, #item3data, #item4data, #item5data, #item6data {
+    height: 428px;
+    border: solid 1px #007236;
+    float: left;
+    /*background-color:#EFFEEF;*/
+    background: url(/Content/Images/Images_dem/background-green.png);
+    overflow: hidden;
+    width: 0px;
+}
+
+    #item1data img, #item2data img, #item3data img, #item4data img, #item5data img, #item6data img {
+        width: 500px;
+        height: 430px;
+    }
+
+.rotate {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    margin-top: 30px;
+}
+
+.rotatorData {
+    margin: 3px;
+    text-align: justify;
+    width: 490px;
+    float: right;
+    padding-right: 5px;
+}
+
+.textSmall {
+    width: 271px;
+    height: 40px;
+    border: 3px solid #EEEEEE;
+    background-color: #EEEEEE;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    padding: 15px;
+    font-size: 15px;
+}
+
+    .textSmall:focus {
+        border: 3px solid #AAAAAA;
+    }
+
+.textBig {
+    width: 600px;
+    height: 100px;
+    border: 3px solid #EEEEEE;
+    background-color: #EEEEEE;
+    padding: 15px;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    font-size: 15px;
+}
+
+    .textBig:focus {
+        border: 3px solid #AAAAAA;
+    }
+
+.sendEmail {
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    font-size: 15px;
+}
+
+    .sendEmail:hover {
+        background-color: #FFFF00;
+    }
+
+#contactLinks {
+    float: left;
+    margin-left: 50px;
+    border: 5px solid #DCDCDC;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#contactEmail {
+    float: left;
+}
+
+#contactLinks a, #contactLinks a:visited {
+    color: #DCDCDC;
+    text-decoration: none;
+}
+
+    #contactLinks a:hover {
+        color: #656565;
+        text-decoration: none;
+    }
+
+.downloadFile {
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    font-size: 15px;
+}
+
+    .downloadFile:hover {
+        background-color: #FFDAA9;
+    }

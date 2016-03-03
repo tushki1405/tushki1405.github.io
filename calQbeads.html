@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="ROBOTS" content="INDEX, FOLLOW" />
+    <meta name="description" content="CalQBeads: Daily Expense Manager. A small application to help manage individual and shared expenses." />
+    <meta name="keywords" content="CalQBeads, Daily Expense Manager, Shared Expenses, Group Expenses, Gupta Tushar, Tushar Gupta" />
+
+    <link href='http://fonts.googleapis.com/css?family=Cantora+One' rel='stylesheet' type='text/css' />
+    <%--<link href="content/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="content/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="content/css/bootstrap.css" rel="stylesheet" />--%>
+    <link href="content/css/dem.css" rel="stylesheet" />
+    <%--<script src="content/Scripts/bootstrap.js"></script>
+    <script src="content/Scripts/bootstrap.min.js"></script>--%>
+    <script src="content/Scripts/jquery-2.1.1.min.js"></script>
+    <%--<script src="content/Scripts/npm.js"></script>--%>
+    <script src="content/Scripts/dem_head.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div id="header">
+                <div id="headerwidth">
+                    <div id="image">
+                        <a href="http://guptaTushar.in/CalQBeads">
+                            <img id="logo" alt="CalQBeads" src="/content/Images/Images_dem/Image.png" style="border: 0px;" />
+                        </a>
+                    </div>
+                    <div id="name">
+                        CalQBeads : Daily Expense Manager
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="headerDivider">
+            &nbsp;
+        </div>
+        <div id="header2">
+            <div id="listWidth">
+                <ul id="headerList">
+                    <li id="aboutIcon">
+                        <a href="#" onclick="scrollToAnchor('#about')">About</a>
+                    </li>
+                    <li id="featuresIcon">
+                        <a href="#" onclick="scrollToAnchor('#features')">Features</a>
+                    </li>
+                    <li id="downloadIcon">
+                        <a href="#" onclick="scrollToAnchor('#download')">Download</a>
+                    </li>
+                    <li id="helpIcon">
+                        <a href="#" onclick="scrollToAnchor('#help')">Help</a>
+                    </li>
+                    <li id="contactIcon">
+                        <a href="#" onclick="scrollToAnchor('#contact')">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="headerDivider">
+            &nbsp;
+        </div>
+
+        <div id="content">
+            <div id="mainContent1">
+                <div class="contentHeading">
+                    <div class="sectionLogo">
+                        <img src="/content/Images/Images_dem/about2.png" alt="About" />
+                    </div>
+                    <div class="sectionName">
+                        <a name="about" id="about">About</a>
+                    </div>
+                </div>
+                <div class="contentData">
+                    <p>
+                        Daily Expense Manager is a desktop based application which helps you to manage your daily expenses. 
+        When studying in college, living with roommates, going for trips, etc there are always expenses that are individual,
+        and there are always some expenses that have to be shared among all. Though individual expenses are relatively easy to manage,
+        calculating shared expenses is a bit tedious task. This application will help you manage all expenses very easily. In addition
+        there are a lot of other features which will make all money management tasks a breeze.
+                    </p>
+                    <p>
+                        You must be wondering "Why a desktop application and not a web version?". This is because of my personal experiences where though
+        I was an engineering student and now a professional in IT industry, I had to and still have to go days without internet access. 
+        But I used to have my laptop and that is all I needed to update all the details everyday.
+                    </p>
+                    <p>
+                        All the data is saved in MSAccess files. Multiple users can use the same application by creating their own individual files.
+        Both application and data files are portable and can be easily transferred.
+                    </p>
+                </div>
+            </div>
+
+            <div class="headerDivider">
+                &nbsp;
+            </div>
+
+            <div id="mainContent2">
+                <div class="contentHeading">
+                    <div class="sectionLogo">
+                        <img src="/content/Images/Images_dem/features2.png" alt="Features" />
+                    </div>
+                    <div class="sectionName">
+                        <a name="features" id="features">Features</a>
+                    </div>
+                </div>
+                <div class="contentData">
+                    <p>
+                        <div id="rotatorBox">
+                            <div class="item" id="item1tab">
+                                <div class="rotate">
+                                    SIMPLIFIED&nbsp;REPORTS
+               
+                                </div>
+                            </div>
+                            <div id="item1data">
+                                <img src="/content/Images/Images_dem/app/calQbeads_1.PNG" alt="SIMPLIFIED REPORTS" />
+                                <div class="rotatorData">
+                                    Get all the frequently required information at home window. Access reports easily for:
+                   
+                                    <ul>
+                                        <li>Total Expenses for the last week and month displayed as graph.</li>
+                                        <li>Current balance in accounts.</li>
+                                        <li>All data related to last 10/20 transactions.</li>
+                                        <li>Payments and receivables information.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item" id="item2tab">
+                                <div class="rotate">
+                                    MANAGE&nbsp;ACCOUNTS
+               
+                                </div>
+                            </div>
+                            <div id="item2data">
+                                <img src="/content/Images/Images_dem/app/calQbeads_2.PNG" alt="MANAGE ACCOUNTS" />
+                                <div class="rotatorData">
+                                    Manage your accounts easily here. Below features available for management:
+                   
+                                    <ul>
+                                        <li>Create New accounts from which transactions are made.</li>
+                                        <li>Add/Reduce amount from Accounts.</li>
+                                        <li>Transfer amount from one account to another.</li>
+                                        <li>Delete Account.</li>
+                                        <li>Rename Account.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item" id="item3tab">
+                                <div class="rotate">
+                                    EDIT&nbsp;EXPENSES
+               
+                                </div>
+                            </div>
+                            <div id="item3data">
+                                <img src="/content/Images/Images_dem/app/calQbeads_3.PNG" alt="EDIT EXPENSES" />
+                                <div class="rotatorData">
+                                    Individual Expenses can be edited easily.
+                   
+                                    <ul>
+                                        <li>Easily find the expenses for a particular day.</li>
+                                        <li>View all the information for the expenses.</li>
+                                        <li>Edit the individual expense.</li>
+                                        <li>Directly update the amount for the selected account.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item" id="item4tab">
+                                <div class="rotate">
+                                    VIEW&nbsp;EXPENSES
+               
+                                </div>
+                            </div>
+                            <div id="item4data">
+                                <img src="/content/Images/Images_dem/app/calQbeads_4.PNG" alt="VIEW EXPENSES" />
+                                <div class="rotatorData">
+                                    View all the expenses between a date range.
+               
+                                    <ul>
+                                        <li>Select a date range to view expenses between that date.</li>
+                                        <li>Graph displayed for category-wise total expenses between date range.</li>
+                                        <li>Individual expenses displayed for the same range.</li>
+                                        <li>Sort expenses according to date, amount, category, etc.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item" id="item5tab">
+                                <div class="rotate">
+                                    SHARED&nbsp;EXPENSES
+               
+                                </div>
+                            </div>
+                            <div id="item5data">
+                                <img src="/content/Images/Images_dem/app/calQbeads_5.PNG" alt="SHARED EXPENSES" />
+                                <div class="rotatorData">
+                                    Easily Manage Expenses that are shared in a group.
+               
+                                    <ul>
+                                        <li>Create a new Title for new group Expenses.</li>
+                                        <li>Add participants any time.</li>
+                                        <li>Easily add expenses and enter share of each person.</li>
+                                        <li>Delete individual as well as whole shared expense title.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item" id="item6tab">
+                                <div class="rotate">
+                                    SHARED&nbsp;EXPENSES 
+               
+                                </div>
+                            </div>
+                            <div id="item6data">
+                                <img src="/content/Images/Images_dem/app/calQbeads_6.PNG" alt="SHARED EXPENSES" />
+                                <div class="rotatorData">
+                                    View the final calculations in the form of reports for shared expenses.
+               
+                                    <ul>
+                                        <li>Data is saved in MSAccess file which can be sent to friends.</li>
+                                        <li>Persons overall payment/receivable displayed in graph.</li>
+                                        <li>Recommended payment calculation displayed for easy exchange.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+
+            <div class="headerDivider">
+                &nbsp;
+            </div>
+
+            <div id="mainContent3">
+                <div class="contentHeading">
+                    <div class="sectionLogo">
+                        <img src="/content/Images/Images_dem/download2.png" alt="Download" />
+                    </div>
+                    <div class="sectionName">
+                        <a name="download" id="download">Download</a>
+                    </div>
+                </div>
+                <div class="contentData">
+                    <p>
+                        Application is supported on Windows 7, Windows 8. 
+                    <br />
+                        Download CalQBeads (Version 2.0) 
+                        <br />
+                        <br />
+                        <asp:Button ID="downLoadFile" runat="server" Text="Download" OnClick="downLoadFile_Click" class="downloadFile" />
+                        <br />
+                        <br />
+                        Requirement:
+                    <br />
+                        <ul>
+                            <li>MsAccess 2007</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="headerDivider">
+                &nbsp;
+            </div>
+
+            <div id="mainContent4">
+                <div class="contentHeading">
+                    <div class="sectionLogo">
+                        <img src="/content/Images/Images_dem/help2.png" alt="Help" />
+                    </div>
+                    <div class="sectionName">
+                        <a id="help" name="help">Help & FAQ's</a>
+                    </div>
+                </div>
+                <div class="contentData">
+                    <p>
+                        Coming Soon !!
+            <br />
+                        <br />
+                        Meanwhile for any help please contact me.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="headerDivider">
+            &nbsp;
+        </div>
+
+        <div id="contactUs">
+
+            <div class="contentHeading">
+                <div class="sectionLogo">
+                    <img src="/content/Images/Images_dem/contactMe2.png" alt="Contact Me" />
+                </div>
+                <div class="sectionName">
+                    <a name="contact" id="contact">Contact Me</a>
+                </div>
+            </div>
+            <div class="contentData">
+                <p>
+                    <%--<div id="contactEmail">
+                        Send Email !!
+                <br />
+                        <br />
+                        <input name="contactName" type="text" placeholder="Your Name" class="textSmall" maxlength="100" />
+                        &nbsp; &nbsp;
+                    <input name="contactEmail" type="email" placeholder="Your Email Address" class="textSmall" maxlength="150" />
+                        <br />
+                        <br />
+                        <textarea name="message" placeholder="Your Message" class="textBig" maxlength="300"></textarea>
+                        <br />
+                        <br />
+                        <asp:Button ID="sendEmail" runat="server" Text="Button" class="sendEmail" OnClick="sendEmail_Click" />
+                    </div>--%>
+
+                    <div id="contactLinks">
+                        Social Networking !!
+                <br />
+                        <br />
+                        <a href="http://in.linkedin.com/in/tushargupta14">
+                            <img src="/content/Images/linkedin.png" width="30" height="30" border="0" alt="View Tushar Gupta's profile on LinkedIn" style="vertical-align: middle;" />&nbsp;
+                    LinkedIn
+                        </a>
+                        <br />
+                        <a href="https://www.facebook.com/tushki1405">
+                            <img src="/content/Images/facebook.png" width="30" height="30" border="0" alt="View Tushar Gupta's profile on LinkedIn" style="vertical-align: middle; margin-top: 5px;" />&nbsp;
+                    Facebook
+                        </a>
+                    </div>
+                </p>
+    </form>
+    </div>
+</body>
+</html>

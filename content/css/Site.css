@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/Content/fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Myriad Pro Regular', 'Ubuntu', sans-serif;
+}
+
+.navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 15px;
+    color: #CCCCCC;
+    font-weight: bold;
+}
+
+    .navbar-inverse .navbar-nav > li > a:visited {
+        color: #CCCCCC;
+    }
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+        color: #AAAAAA;
+    }
+
+.navbar-nav > li {
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-left: 5px;
+    background-color: #000000;
+    float: left;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.row {
+    margin: 0px;
+}
+
+.navbar-default, .navbar-inverse {
+    background-image: none;
+    background-color: #000000;
+}
+
+.container {
+    margin-right: 0px;
+    padding: 5px;
+}
+
+.homePageFirst {
+    background-image: url(/Content/Images/MainBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    width: 100%;
+    height: 100vh;
+    /*background-color: #DDDDDD;*/
+}
+
+.intro1 {
+    font-size: 60px;
+}
+
+.intro2 {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 700px) {
+    .intro1 {
+        font-size: 40px;
+    }
+
+    .intro2 {
+        font-size: 30px;
+    }
+}
+
+.homePageAboutMe {
+    background-color: #DDDDDD;
+    width: 100%;
+    height: 100vh;
+}
+
+.contactPanel {
+    background-color: #000000;
+    top: 30px;
+    left: -200px;
+    height: 96vh;
+    position: fixed;
+    width: 200px;
+    visibility: hidden;
+    opacity: 0.9;
+    color: #CCCCCC;
+}
+
+    .contactPanel table {
+        width: 100%;
+        font-size: 15px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+        .contactPanel table tr td {
+            vertical-align: middle;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .contactPanel table tr img {
+            height: 64px;
+            width: 64px;
+        }
+
+        .contactPanel table tr td a {
+        color: #CCCCCC;
+        text-decoration:none;
+    }
+    .contactPanel table tr td a:visited {
+        color: #CCCCCC;
+    }
+
+    .contactPanel table tr td a:hover {
+        color: #AAAAAA;
+    }
+
+.githubIcon {
+    width: 65px !important;
+    height: 55px !important;
+    padding-left: 7px;
+    padding-right: 5px;
+}
