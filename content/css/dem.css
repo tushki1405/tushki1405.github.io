@@ -120,12 +120,12 @@ header {
 
 .headerDivider {
     height: 10px;
-    background: url(/Content/Images/Images_dem/divider.png);
+    background: url(/content/Images/Images_dem/divider.png);
     background-repeat: repeat-x;
 }
 
 #header2 {
-    background: url(/Content/Images/Images_dem/background-red.png);
+    background: url(/content/Images/Images_dem/background-red.png);
     height: 120px;
     padding: 5px 0px 0px 0px;
 }
@@ -154,12 +154,12 @@ header {
         width: 100px;
         height: 100px;
         text-indent: -99999px;
-        background: url(/Content/Images/Images_dem/download.png);
+        background: url(/content/Images/Images_dem/download.png);
         float: left;
     }
 
         #downloadIcon a:hover {
-            background: url(/Content/Images/Images_dem/download2.png);
+            background: url(/content/Images/Images_dem/download2.png);
         }
 
 #helpIcon {
@@ -171,12 +171,12 @@ header {
         width: 100px;
         height: 100px;
         text-indent: -99999px;
-        background: url(/Content/Images/Images_dem/help.png);
+        background: url(/content/Images/Images_dem/help.png);
         float: left;
     }
 
         #helpIcon a:hover {
-            background: url(/Content/Images/Images_dem/help2.png);
+            background: url(/content/Images/Images_dem/help2.png);
         }
 
 #contactIcon {
@@ -188,12 +188,12 @@ header {
         width: 100px;
         height: 100px;
         text-indent: -99999px;
-        background: url(/Content/Images/Images_dem/contactMe.png);
+        background: url(/content/Images/Images_dem/contactMe.png);
         float: left;
     }
 
         #contactIcon a:hover {
-            background: url(/Content/Images/Images_dem/contactMe2.png);
+            background: url(/content/Images/Images_dem/contactMe2.png);
         }
 
 #featuresIcon {
@@ -205,12 +205,12 @@ header {
         width: 100px;
         height: 100px;
         text-indent: -99999px;
-        background: url(/Content/Images/Images_dem/features.png);
+        background: url(/content/Images/Images_dem/features.png);
         float: left;
     }
 
         #featuresIcon a:hover {
-            background: url(/Content/Images/Images_dem/features2.png);
+            background: url(/content/Images/Images_dem/features2.png);
         }
 
 #aboutIcon {
@@ -222,18 +222,18 @@ header {
         width: 100px;
         height: 100px;
         text-indent: -99999px;
-        background: url(/Content/Images/Images_dem/about.png);
+        background: url(/content/Images/Images_dem/about.png);
         float: left;
     }
 
         #aboutIcon a:hover {
-            background: url(/Content/Images/Images_dem/about2.png);
+            background: url(/content/Images/Images_dem/about2.png);
         }
 
 /* Main content starts here */
 #content {
     /*height:600px;
-    background:url(/Content/Images/Images_dem/background-blue.png);
+    background:url(/content/Images/Images_dem/background-blue.png);
     margin:0px;*/
     padding: 0px 0px 0px 0px;
     color: #DDDDDD;
@@ -241,7 +241,7 @@ header {
 
 #contactUs {
     height: 400px;
-    background: url(/Content/Images/Images_dem/background-black.png);
+    background: url(/content/Images/Images_dem/background-black.png);
     padding-top: 5px 0px 0px 0px;
     text-align: center;
     color: #DCDCDC;
@@ -284,28 +284,28 @@ header {
 
 #mainContent1 {
     height: 420px;
-    background: url(/Content/Images/Images_dem/background-blue.png);
+    background: url(/content/Images/Images_dem/background-blue.png);
     margin: 0px;
     color: #D0EEEE;
 }
 
 #mainContent2 {
     height: 600px;
-    background: url(/Content/Images/Images_dem/background-green.png);
+    background: url(/content/Images/Images_dem/background-green.png);
     margin: 0px;
     color: #CBFDCB;
 }
 
 #mainContent3 {
     height: 380px;
-    background: url(/Content/Images/Images_dem/background-brown.png);
+    background: url(/content/Images/Images_dem/background-brown.png);
     margin: 0px;
     color: #FFDAA9;
 }
 
 #mainContent4 {
     height: 250px;
-    background: url(/Content/Images/Images_dem/background-orange.png);
+    background: url(/content/Images/Images_dem/background-orange.png);
     margin: 0px;
     color: #FFE696;
 }
@@ -341,7 +341,7 @@ header {
     border: solid 1px #007236;
     float: left;
     /*background-color:#EFFEEF;*/
-    background: url(/Content/Images/Images_dem/background-green.png);
+    background: url(/content/Images/Images_dem/background-green.png);
     overflow: hidden;
     width: 0px;
 }

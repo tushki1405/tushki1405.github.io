@@ -2,7 +2,7 @@
     font-family: 'Myriad Pro Regular';
     font-style: normal;
     font-weight: normal;
-    src: url('/Content/fonts/MYRIADPRO-REGULAR.woff') format('woff');
+    src: url('/content/fonts/MYRIADPRO-REGULAR.woff') format('woff');
 }
 
 body {
@@ -54,7 +54,7 @@ body {
 }
 
 .homePageFirst {
-    background-image: url(/Content/Images/MainBackground.jpg);
+    background-image: url(/content/Images/MainBackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
